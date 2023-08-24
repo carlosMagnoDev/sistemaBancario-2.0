@@ -31,13 +31,7 @@ CREATE DATABASE sistemaBancario;
 USE sistemaBancario;
 
 3. **Crie a tabela account para armazenar as informações das contas:**
-CREATE TABLE account (
-    holder VARCHAR(100) NOT NULL,
-    numberAccount VARCHAR(100) PRIMARY KEY,
-    cpf CHAR(11) NOT NULL UNIQUE,
-    contac CHAR(11) NOT NULL UNIQUE,
-    birthDate DATE NOT NULL,
-    balance DECIMAL(10, 2) DEFAULT 0
+Use o arquivo databaseMySql 
 );
 
 ## Como Executar o Projeto
