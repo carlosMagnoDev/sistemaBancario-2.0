@@ -1,0 +1,12 @@
+create database sistemaBancario;
+use sistemaBancario; 
+
+create table account
+(
+holder varchar(100) not null,
+numberAccount varchar(100) primary key,
+cpf char(11) not null unique,
+contac char(11) not null unique,
+birthDate date not null,
+balance decimal(10,2) default 0
+);
